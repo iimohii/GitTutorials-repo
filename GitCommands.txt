@@ -36,3 +36,15 @@ USE-CASE
 1)Suppose you committed a deletion , to restore the deleted file
 $git reset <previous commit from deleted one>
 $git restore <deleted file>
+
+2)Save some file , but don't want to commit currently
+$git add .
+$git stash
+$git status
+
+3)To take out te files from stash (or backstage)
+$git stash pop
+
+4) To clean stash 
+$git stash clean
+
