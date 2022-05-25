@@ -25,5 +25,9 @@ $git reset <parent-commit-id>
   OR
 $git reset<previous-commit-id(from where u want changes)>
 
-8)If some file is added with command "git add .", To rever that
+8)If some file is added with command "git add .", To revert that
 $git restore --staged <file name>
+
+9)To add user & email id
+$git config --global user.email <mail-id>
+$git config --global user.name <name>
