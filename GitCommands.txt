@@ -24,3 +24,6 @@ $git push -u origin master
 $git reset <parent-commit-id>
   OR
 $git reset<previous-commit-id(from where u want changes)>
+
+8)If some file is added with command "git add .", To rever that
+$git restore --staged <file name>
