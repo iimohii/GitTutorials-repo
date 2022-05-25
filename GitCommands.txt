@@ -31,3 +31,8 @@ $git restore --staged <file name>
 9)To add user & email id
 $git config --global user.email <mail-id>
 $git config --global user.name <name>
+
+USE-CASE
+1)Suppose you committed a deletion , to restore the deleted file
+$git reset <previous commit from deleted one>
+$git restore <deleted file>
