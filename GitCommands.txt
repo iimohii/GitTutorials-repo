@@ -1,0 +1,26 @@
+1) To initialize a directory
+$git init
+
+2) To add a file
+$git add .
+
+3)To commit the file
+$git commit -m "message"
+
+
+4) To check status
+$git status
+
+
+5) To check log
+$git log
+
+
+6)To add your local project to remote repo
+$git remote add origin <url>
+$git push -u origin master
+
+7)To revert changes
+$git reset <parent-commit-id>
+  OR
+$git reset<previous-commit-id(from where u want changes)>
